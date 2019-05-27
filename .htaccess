@@ -1,0 +1,25 @@
+<FilesMatch "\.(inc|php|php3|php4|php5|php6|phtml|phps)$">
+AddHandler x-httpd-php54 .inc .php .php3 .php4 .php5 .phtml
+</FilesMatch>
+#php_flag register_globals off
+#<FilesMatch \.(?i:html)$>
+#	Order allow,deny
+#	Deny from all
+#</FilesMatch>
+<FilesMatch (?i:data\.php)$>
+	Order allow,deny
+	Deny from all
+</FilesMatch>
+RedirectMatch 301 ^/gallery2/ http://picasaweb.google.com/landrzejak
+RedirectMatch 301 ^/gallery/ http://picasaweb.google.com/landrzejak
+RedirectMatch 301 ^/node/ http://meltir.blogspot.com/
+RedirectMatch 301 ^/user/ http://meltir.blogspot.com/
+RedirectMatch 301 ^/blog/ http://meltir.blogspot.com/
+
+<IfModule mod_fcgid.c>
+        <FilesMatch "\.php$">
+                SetHandler fcgid-script
+                FCGIWrapper '/usr/local/safe-bin/fcgid54.sh /usr/local/directadmin/data/users/meltir/php/meltir.com.ini -d mail.log="/home/meltir/.php/php-mail.log"' .php
+                Options +ExecCGI
+        </FilesMatch>
+</IfModule>

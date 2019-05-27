@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+	<meta http-equiv="Content-Type" content="charset=UTF-8" />
+	<meta name="generator" content="meltir" />
+	<title>Meltir Gorth</title>
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+
+<body>
+
+<div id="wrapper">
+
+	<div id="header">
+		<div id="title">
+			<h1><a href="http://www.meltir.com">Meltir Gorth</a></h1>
+		</div>
+	</div>
+	<div id="content">		
+		<div class="post" id="post-0">
+			<h2 class="posttitle">Where am i ?</h2>
+			<p class="postmeta">Welcome to my home</p>
+			Welcome to my site.<br />
+            Its hard to come by this place by accident, so you must be searching for something.<br />
+            That something would probably be information about me.<br />
+            <p>This site is just a quickly mashed up script with some templates, don't expect too much from it.<br />
+            I simply decided that due to the big changes I'm going through in my life,
+            i need a new homepage.<br />
+            But before i can build one that really fits my needs, i
+            need to have something, anything - regardless of how simple it will be.
+            </p>
+			<p>
+				This site is currently (as of september 2008) under development.<br />
+				This layout is subject to changes, the sections that will be added next are:
+				<ul>
+					<li>portfolio</li>
+					<li>CV</li>
+					<li>more about myself</li>
+				</ul> 
+			</p>
+		</div>
+		<div class="post" id="post-1">
+			<h2 class="posttitle">So who are you ?</h2>
+			<p class="postmeta">A short blurb</p>
+			<div class="image" style="float: right"><img src="images/eye.jpg" title="I can see you !" alt="I can see you !" /></div>
+			<p>My name is Łukasz, but you can call me Meltir (or Lukas).</p>
+            <p>I'm a web developer in my twenties, originally from Poland.<br />
+            I consider myself proficient in php and a number of other technologies relevant to web design,
+            but feel free to check out my portfolio and judge for yourself.<br />
+            For the past 3 years I've been working at <a href="http://www.sote.pl/">www.sote.pl</a> designing, managing and implementing e-commerce solutions and the servers they run on.<br />
+            </p>
+            <p>Yes, I'm an admin and a coder.<br />Not exactly rare - but a trait sometimes sough out by employers.</p>
+            <p>Should you want to contact me - feel free to drop me an <a href="mailto:landrzejak@gmail.com">email</a>, or just <a href="callto://landrzejak">skype me</a>.</p>
+		</div>
+
+	</div>
+	<div id="sidebar">
+		
+	</div>
+	<div id="footer">
+		<p>
+		&#183;
+		Design by <a href="http://beccary.com" title="Theme designed by Beccary">Beccary</a> and <a href="http://weblogs.us" title="Theme sponsored by Weblogs.us">Weblogs.us</a>
+		&#183;
+		<a href="http://validator.w3.org/check/referer" title="This page validates as XHTML 1.0 Transitional"><abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a>
+		&#183;
+		<a href="http://jigsaw.w3.org/css-validator/check/referer" title="This page validates as CSS"><abbr title="Cascading Style Sheets">CSS</abbr></a>
+		&#183;
+		Content &copy; 2008 Meltir
+		</p>
+	</div>
+
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1898734-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

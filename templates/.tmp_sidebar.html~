@@ -1,0 +1,21 @@
+<div id="sidebar">
+	<ul>
+		<li class="pagenav">
+			<h2>Choose a section</h2>
+			<ul>
+				<li>
+					<a href="/">Main page</a>
+				</li>
+				<li>
+					<a href="portfolio.php">Portfolio</a>
+				</li>
+				<li>
+					<a href="about.php">About Me</a>
+				</li>
+				<li>
+					<a href="CV.pdf">CV</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
