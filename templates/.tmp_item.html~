@@ -1,5 +1,0 @@
-<div class="post" id="<?php echo $postkey; ?>">
-	<h2 class="posttitle"><?php echo $posttitle; ?></h2>
-	<p class="postmeta"><?php echo $postmeta; ?></p>
-	<?php echo $postbody; ?>
-</div>
